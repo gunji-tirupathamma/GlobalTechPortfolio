@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("https://img.freepik.com/free-photo/maple-leaf-border-background-orange-watercolor-autumn-season_53876-128735.jpg?w=740&t=st=1684306692~exp=1684307292~hmac=a8217672bde2c81b7a5f239223fde6820ac4cefe2b396a664d910f26fc166ef0");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.image {
+    height: 40vh;
+    width: 40vw;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.hello {
+    font-family: italic;
+    font-size: 40px;
+    color: #7303a3;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-family: italic;
+    font-size: 25px;
+    color: #7303a3;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.web {
+    font-family: Algerian;
+    font-size: 25px;
+    color: #047002;
+    font-weight: bold;
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #4f0278;
+    align-self: center;
+}
+
+@media screen and (min-width: 767px) {
+    .bg-container {
+        flex-direction: row;
+    }
+
+    .image {
+        order: 1;
+        height: 70vh;
+    }
+
+
+    .hello {
+        font-size: 50px;
+        margin-left: 150px;
+    }
+
+    .name {
+        font-size: 45px;
+    }
+
+    .web {
+        font-size: 45px;
+    }
+
+}
+
+.navbar {
+    background-color: #34eba8;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+    width: 100%;
+}
+
+.nave-bar-text {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.ul-element {
+    font-size: 25px;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1aafa;
+    background-size: cover;
+    font-family: Roboto;
+    padding: 10px;
+    padding-top: 50px;
+
+}
+
+.aboutme-head {
+    font-family: italic;
+
+}
+
+.aboutme-description {
+    font-size: 20px;
+}
+
+@media screen and (min-width: 767px) {
+    .aboutme-description {
+        font-size: 25px;
+    }
+}
+
+.expert-container {
+    background-image: radial-gradient(#fa8e73, #fcfc68, #bafa5a);
+    background-size: cover;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.experts-cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    background-size: cover;
+    height: 40vh;
+    width: 30%;
+    margin: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.icon-size {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.icon-name {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 767px) {
+    .experts-cards-container {
+        flex-direction: row;
+    }
+}
+
+.projects-container {
+    background-color: #98ede2;
+    background-size: cover;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    background-color: #d8a9f5;
+    background-size: cover;
+    margin: 10px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.project-image {
+    height: 30vh;
+    width: 30vw;
+    align-self: center;
+    border-radius: 20px;
+}
+
+.project-head {
+    font-size: 20px;
+    color: #fa382a;
+}
+
+.project-description {
+    font-size: 15px;
+    color: #616060;
+}
+
+@media screen and (min-width: 767px) {
+    .project {
+        width: 40%;
+        height: 70vh;
+    }
+
+    .project-image {
+        width: 20vw;
+    }
+}
+
+.service-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffa3;
+    background-size: cover;
+    padding: 10px;
+}
+
+
+
+.role-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #333232;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    height: 50vh;
+    width: 60vw;
+}
+
+.role-head {
+    font-size: 25px;
+    color: #fcb91c;
+}
+
+.role-discription {
+    font-size: 15px;
+    color: #d1cfcb;
+}
+
+@media screen and (min-width: 767px) {
+
+
+    .role-head {
+        font-size: 35px;
+    }
+
+    .role-discription {
+        font-size: 23px;
+    }
+
+    .role-card {
+        height: 65vh;
+        width: 65vw;
+        margin-left: 20px;
+    }
+
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #060236;
+    background-size: cover;
+    padding: 10px;
+}
+
+.contact-head {
+    font-size: 25px;
+    font-family: italic;
+    color: #c3f520;
+}
+
+.contact-info {
+    font-size: 17px;
+    font-family: italic;
+    color: #fff;
+}
+
+.contact-ion {
+    font-size: 25px;
+    color: #fff !important;
+    margin: 10px;
+}
+
+.contact-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.facebook-iocn {
+    font-size: 50px;
+    color: #ff9f0f;
+}
